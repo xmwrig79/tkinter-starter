@@ -58,40 +58,19 @@ l1.grid(column=20, row=20)
 
 # style.configure(BW.TLablel", foreground= "black, background="white")
 
-window.mainloop()     # Keep the window open
-x = ____
-y = 23
-
-if x > 50:
-  x = 5
-  if y < 20:
-    x = 3
-else:
-  x = 2
-  y = 10
-
-print(x + y)
 score = 0
-
-def addToScore():
-  message = txt.get()
-  if message == "Jon":
-    lbl['text'] = "go away"
-  else:
-    lbl['text'] = "hello"
-
-# Add a label with the text "Hello"
-lbl = Label(window, text=score, font=("Arial Bold", 50))
-lbl.grid(column=0, row=0)
-
-btn = Button(window, text="Click", command=addToScore)
-btn.grid(column = 0 , row = 1)
-
-txt = Entry(window,width=10)
-txt.grid(column=1, row=0)
+def addtoscore():
+    global score
+    score +=1 
+    if score == x > 50
+    print("you won")
+    lb1['text'] = score
 
 
+    word = hello
+    def addtoscore():
+        global WORD
+        word = Hello
+        lb1['word'] = word
 
 window.mainloop()     # Keep the window open
-
-
