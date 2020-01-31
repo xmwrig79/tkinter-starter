@@ -59,3 +59,15 @@ l1.grid(column=20, row=20)
 # style.configure(BW.TLablel", foreground= "black, background="white")
 
 window.mainloop()     # Keep the window open
+x = ____
+y = 23
+
+if x > 50:
+  x = 5
+  if y < 20:
+    x = 3
+else:
+  x = 2
+  y = 10
+
+print(x + y)
